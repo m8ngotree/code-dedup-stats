@@ -1,0 +1,31 @@
+data:
+  hf_dataset: "bigcode/the-stack"
+  cache_dir: "data/cache"
+  n_files_per_language: 200_000
+  min_file_length: 100
+  languages:
+    javascript: {data_dir: "data/javascript"}
+    html:       {data_dir: "data/html"}
+    css:        {data_dir: "data/css"}
+    php:        {data_dir: "data/php"}
+    java:       {data_dir: "data/java"}
+    c:          {data_dir: "data/c"}
+    cpp:        {data_dir: "data/c++"}
+    shell:      {data_dir: "data/shell"}
+    typescript: {data_dir: "data/typescript"}
+    python:     {data_dir: "data/python"}
+    rust:       {data_dir: "data/rust"}
+    lua:        {data_dir: "data/lua"}
+    haskell:    {data_dir: "data/haskell"}
+    julia:      {data_dir: "data/julia"}
+
+minhash:
+  n_permutations: 128
+  shingle_k: 5
+  threshold: 0.85
+  n_workers: 8
+  batch_size: 1000
+
+output:
+  results_dir: "results"
+  figures_dir: "figures"

@@ -1,0 +1,41 @@
+{
+  "language": "rust",
+  "threshold": 0.85,
+  "shingle_k": 5,
+  "n_permutations": 128,
+  "lsh_bands": 8,
+  "lsh_rows": 16,
+  "n_files_input": 200000,
+  "n_files_kept": 172514,
+  "n_files_removed": 27486,
+  "dedup_rate": 0.1374,
+  "total_tokens_input": 236689808,
+  "total_tokens_kept": 177122841,
+  "token_removal_rate": 0.2517,
+  "n_components": 172514,
+  "mean_component_size": 49.8,
+  "max_component_size": 913,
+  "cluster_size_distribution": {
+    "size_2": {
+      "fraction_of_files": 0.21882
+    },
+    "size_3_9": {
+      "fraction_of_files": 0.262995
+    },
+    "size_10_99": {
+      "fraction_of_files": 0.60933
+    },
+    "size_100_999": {
+      "fraction_of_files": 9.36058
+    },
+    "size_1000_plus": {
+      "fraction_of_files": 0.0
+    }
+  },
+  "fraction_in_large_clusters": {
+    "threshold_10": 9.96991,
+    "threshold_100": 9.36058,
+    "threshold_1000": 0.0
+  },
+  "runtime_sec": 543.2
+}

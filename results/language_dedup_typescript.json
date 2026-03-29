@@ -1,0 +1,41 @@
+{
+  "language": "typescript",
+  "threshold": 0.85,
+  "shingle_k": 5,
+  "n_permutations": 128,
+  "lsh_bands": 8,
+  "lsh_rows": 16,
+  "n_files_input": 200000,
+  "n_files_kept": 184996,
+  "n_files_removed": 15004,
+  "dedup_rate": 0.075,
+  "total_tokens_input": 116755782,
+  "total_tokens_kept": 82086453,
+  "token_removal_rate": 0.2969,
+  "n_components": 184996,
+  "mean_component_size": 195.68,
+  "max_component_size": 1330,
+  "cluster_size_distribution": {
+    "size_2": {
+      "fraction_of_files": 0.05336
+    },
+    "size_3_9": {
+      "fraction_of_files": 0.09525
+    },
+    "size_10_99": {
+      "fraction_of_files": 0.781425
+    },
+    "size_100_999": {
+      "fraction_of_files": 3.305105
+    },
+    "size_1000_plus": {
+      "fraction_of_files": 14.200625
+    }
+  },
+  "fraction_in_large_clusters": {
+    "threshold_10": 18.287155,
+    "threshold_100": 17.50573,
+    "threshold_1000": 14.200625
+  },
+  "runtime_sec": 311.7
+}

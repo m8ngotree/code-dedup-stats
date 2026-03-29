@@ -1,0 +1,525 @@
+{
+  "threshold": 0.85,
+  "shingle_k": 5,
+  "n_permutations": 128,
+  "languages": {
+    "javascript": {
+      "lsh_bands": 8,
+      "lsh_rows": 16,
+      "n_files_input": 200000,
+      "n_files_kept": 192361,
+      "n_files_removed": 7639,
+      "dedup_rate": 0.0382,
+      "total_tokens_input": 179156127,
+      "total_tokens_kept": 147187090,
+      "token_removal_rate": 0.1784,
+      "n_components": 192361,
+      "mean_component_size": 13.66,
+      "max_component_size": 214,
+      "cluster_size_distribution": {
+        "size_2": {
+          "fraction_of_files": 0.0521
+        },
+        "size_3_9": {
+          "fraction_of_files": 0.08185
+        },
+        "size_10_99": {
+          "fraction_of_files": 0.40304
+        },
+        "size_100_999": {
+          "fraction_of_files": 0.22898
+        },
+        "size_1000_plus": {
+          "fraction_of_files": 0.0
+        }
+      },
+      "fraction_in_large_clusters": {
+        "threshold_10": 0.63202,
+        "threshold_100": 0.22898,
+        "threshold_1000": 0.0
+      },
+      "runtime_sec": 627.2
+    },
+    "html": {
+      "lsh_bands": 8,
+      "lsh_rows": 16,
+      "n_files_input": 200000,
+      "n_files_kept": 152126,
+      "n_files_removed": 47874,
+      "dedup_rate": 0.2394,
+      "total_tokens_input": 251068237,
+      "total_tokens_kept": 181384789,
+      "token_removal_rate": 0.2775,
+      "n_components": 152126,
+      "mean_component_size": 596.32,
+      "max_component_size": 4302,
+      "cluster_size_distribution": {
+        "size_2": {
+          "fraction_of_files": 0.09568
+        },
+        "size_3_9": {
+          "fraction_of_files": 0.24923
+        },
+        "size_10_99": {
+          "fraction_of_files": 2.493185
+        },
+        "size_100_999": {
+          "fraction_of_files": 16.61297
+        },
+        "size_1000_plus": {
+          "fraction_of_files": 146.56845
+        }
+      },
+      "fraction_in_large_clusters": {
+        "threshold_10": 165.674605,
+        "threshold_100": 163.18142,
+        "threshold_1000": 146.56845
+      },
+      "runtime_sec": 984.3
+    },
+    "css": {
+      "lsh_bands": 8,
+      "lsh_rows": 16,
+      "n_files_input": 200000,
+      "n_files_kept": 159774,
+      "n_files_removed": 40226,
+      "dedup_rate": 0.2011,
+      "total_tokens_input": 360560998,
+      "total_tokens_kept": 168024319,
+      "token_removal_rate": 0.534,
+      "n_components": 159774,
+      "mean_component_size": 163.4,
+      "max_component_size": 1806,
+      "cluster_size_distribution": {
+        "size_2": {
+          "fraction_of_files": 0.10876
+        },
+        "size_3_9": {
+          "fraction_of_files": 0.34878
+        },
+        "size_10_99": {
+          "fraction_of_files": 2.438455
+        },
+        "size_100_999": {
+          "fraction_of_files": 11.898215
+        },
+        "size_1000_plus": {
+          "fraction_of_files": 25.761305
+        }
+      },
+      "fraction_in_large_clusters": {
+        "threshold_10": 40.097975,
+        "threshold_100": 37.65952,
+        "threshold_1000": 25.761305
+      },
+      "runtime_sec": 2761.7
+    },
+    "php": {
+      "lsh_bands": 8,
+      "lsh_rows": 16,
+      "n_files_input": 200000,
+      "n_files_kept": 177969,
+      "n_files_removed": 22031,
+      "dedup_rate": 0.1102,
+      "total_tokens_input": 79542847,
+      "total_tokens_kept": 65534205,
+      "token_removal_rate": 0.1761,
+      "n_components": 177969,
+      "mean_component_size": 462.82,
+      "max_component_size": 3114,
+      "cluster_size_distribution": {
+        "size_2": {
+          "fraction_of_files": 0.05354
+        },
+        "size_3_9": {
+          "fraction_of_files": 0.107995
+        },
+        "size_10_99": {
+          "fraction_of_files": 1.24784
+        },
+        "size_100_999": {
+          "fraction_of_files": 10.35782
+        },
+        "size_1000_plus": {
+          "fraction_of_files": 48.48498
+        }
+      },
+      "fraction_in_large_clusters": {
+        "threshold_10": 60.09064,
+        "threshold_100": 58.8428,
+        "threshold_1000": 48.48498
+      },
+      "runtime_sec": 742.5
+    },
+    "java": {
+      "lsh_bands": 8,
+      "lsh_rows": 16,
+      "n_files_input": 200000,
+      "n_files_kept": 188199,
+      "n_files_removed": 11801,
+      "dedup_rate": 0.059,
+      "total_tokens_input": 106794251,
+      "total_tokens_kept": 100004443,
+      "token_removal_rate": 0.0636,
+      "n_components": 188199,
+      "mean_component_size": 119.14,
+      "max_component_size": 706,
+      "cluster_size_distribution": {
+        "size_2": {
+          "fraction_of_files": 0.05086
+        },
+        "size_3_9": {
+          "fraction_of_files": 0.075245
+        },
+        "size_10_99": {
+          "fraction_of_files": 0.711155
+        },
+        "size_100_999": {
+          "fraction_of_files": 8.25095
+        },
+        "size_1000_plus": {
+          "fraction_of_files": 0.0
+        }
+      },
+      "fraction_in_large_clusters": {
+        "threshold_10": 8.962105,
+        "threshold_100": 8.25095,
+        "threshold_1000": 0.0
+      },
+      "runtime_sec": 510.1
+    },
+    "c": {
+      "lsh_bands": 8,
+      "lsh_rows": 16,
+      "n_files_input": 200000,
+      "n_files_kept": 185806,
+      "n_files_removed": 14194,
+      "dedup_rate": 0.071,
+      "total_tokens_input": 250046647,
+      "total_tokens_kept": 219070122,
+      "token_removal_rate": 0.1239,
+      "n_components": 185806,
+      "mean_component_size": 29.47,
+      "max_component_size": 631,
+      "cluster_size_distribution": {
+        "size_2": {
+          "fraction_of_files": 0.09894
+        },
+        "size_3_9": {
+          "fraction_of_files": 0.14479
+        },
+        "size_10_99": {
+          "fraction_of_files": 0.482055
+        },
+        "size_100_999": {
+          "fraction_of_files": 2.34566
+        },
+        "size_1000_plus": {
+          "fraction_of_files": 0.0
+        }
+      },
+      "fraction_in_large_clusters": {
+        "threshold_10": 2.827715,
+        "threshold_100": 2.34566,
+        "threshold_1000": 0.0
+      },
+      "runtime_sec": 1220.2
+    },
+    "cpp": {
+      "lsh_bands": 8,
+      "lsh_rows": 16,
+      "n_files_input": 200000,
+      "n_files_kept": 180935,
+      "n_files_removed": 19065,
+      "dedup_rate": 0.0953,
+      "total_tokens_input": 258501385,
+      "total_tokens_kept": 215667599,
+      "token_removal_rate": 0.1657,
+      "n_components": 180935,
+      "mean_component_size": 35.1,
+      "max_component_size": 723,
+      "cluster_size_distribution": {
+        "size_2": {
+          "fraction_of_files": 0.101
+        },
+        "size_3_9": {
+          "fraction_of_files": 0.152495
+        },
+        "size_10_99": {
+          "fraction_of_files": 1.30937
+        },
+        "size_100_999": {
+          "fraction_of_files": 3.004995
+        },
+        "size_1000_plus": {
+          "fraction_of_files": 0.0
+        }
+      },
+      "fraction_in_large_clusters": {
+        "threshold_10": 4.314365,
+        "threshold_100": 3.004995,
+        "threshold_1000": 0.0
+      },
+      "runtime_sec": 687.7
+    },
+    "shell": {
+      "lsh_bands": 8,
+      "lsh_rows": 16,
+      "n_files_input": 200000,
+      "n_files_kept": 174302,
+      "n_files_removed": 25698,
+      "dedup_rate": 0.1285,
+      "total_tokens_input": 55742919,
+      "total_tokens_kept": 42354647,
+      "token_removal_rate": 0.2402,
+      "n_components": 174302,
+      "mean_component_size": 222.73,
+      "max_component_size": 1936,
+      "cluster_size_distribution": {
+        "size_2": {
+          "fraction_of_files": 0.11918
+        },
+        "size_3_9": {
+          "fraction_of_files": 0.172865
+        },
+        "size_10_99": {
+          "fraction_of_files": 1.18788
+        },
+        "size_100_999": {
+          "fraction_of_files": 7.82374
+        },
+        "size_1000_plus": {
+          "fraction_of_files": 28.40098
+        }
+      },
+      "fraction_in_large_clusters": {
+        "threshold_10": 37.4126,
+        "threshold_100": 36.22472,
+        "threshold_1000": 28.40098
+      },
+      "runtime_sec": 205.4
+    },
+    "typescript": {
+      "lsh_bands": 8,
+      "lsh_rows": 16,
+      "n_files_input": 200000,
+      "n_files_kept": 184996,
+      "n_files_removed": 15004,
+      "dedup_rate": 0.075,
+      "total_tokens_input": 116755782,
+      "total_tokens_kept": 82086453,
+      "token_removal_rate": 0.2969,
+      "n_components": 184996,
+      "mean_component_size": 195.68,
+      "max_component_size": 1330,
+      "cluster_size_distribution": {
+        "size_2": {
+          "fraction_of_files": 0.05336
+        },
+        "size_3_9": {
+          "fraction_of_files": 0.09525
+        },
+        "size_10_99": {
+          "fraction_of_files": 0.781425
+        },
+        "size_100_999": {
+          "fraction_of_files": 3.305105
+        },
+        "size_1000_plus": {
+          "fraction_of_files": 14.200625
+        }
+      },
+      "fraction_in_large_clusters": {
+        "threshold_10": 18.287155,
+        "threshold_100": 17.50573,
+        "threshold_1000": 14.200625
+      },
+      "runtime_sec": 311.7
+    },
+    "python": {
+      "lsh_bands": 8,
+      "lsh_rows": 16,
+      "n_files_input": 200000,
+      "n_files_kept": 188938,
+      "n_files_removed": 11062,
+      "dedup_rate": 0.0553,
+      "total_tokens_input": 143852725,
+      "total_tokens_kept": 132769184,
+      "token_removal_rate": 0.077,
+      "n_components": 188938,
+      "mean_component_size": 63.84,
+      "max_component_size": 579,
+      "cluster_size_distribution": {
+        "size_2": {
+          "fraction_of_files": 0.05834
+        },
+        "size_3_9": {
+          "fraction_of_files": 0.081825
+        },
+        "size_10_99": {
+          "fraction_of_files": 0.619085
+        },
+        "size_100_999": {
+          "fraction_of_files": 4.013465
+        },
+        "size_1000_plus": {
+          "fraction_of_files": 0.0
+        }
+      },
+      "fraction_in_large_clusters": {
+        "threshold_10": 4.63255,
+        "threshold_100": 4.013465,
+        "threshold_1000": 0.0
+      },
+      "runtime_sec": 464.1
+    },
+    "rust": {
+      "lsh_bands": 8,
+      "lsh_rows": 16,
+      "n_files_input": 200000,
+      "n_files_kept": 172514,
+      "n_files_removed": 27486,
+      "dedup_rate": 0.1374,
+      "total_tokens_input": 236689808,
+      "total_tokens_kept": 177122841,
+      "token_removal_rate": 0.2517,
+      "n_components": 172514,
+      "mean_component_size": 49.8,
+      "max_component_size": 913,
+      "cluster_size_distribution": {
+        "size_2": {
+          "fraction_of_files": 0.21882
+        },
+        "size_3_9": {
+          "fraction_of_files": 0.262995
+        },
+        "size_10_99": {
+          "fraction_of_files": 0.60933
+        },
+        "size_100_999": {
+          "fraction_of_files": 9.36058
+        },
+        "size_1000_plus": {
+          "fraction_of_files": 0.0
+        }
+      },
+      "fraction_in_large_clusters": {
+        "threshold_10": 9.96991,
+        "threshold_100": 9.36058,
+        "threshold_1000": 0.0
+      },
+      "runtime_sec": 543.2
+    },
+    "lua": {
+      "lsh_bands": 8,
+      "lsh_rows": 16,
+      "n_files_input": 200000,
+      "n_files_kept": 163994,
+      "n_files_removed": 36006,
+      "dedup_rate": 0.18,
+      "total_tokens_input": 160924580,
+      "total_tokens_kept": 112974862,
+      "token_removal_rate": 0.298,
+      "n_components": 163994,
+      "mean_component_size": 299.47,
+      "max_component_size": 3767,
+      "cluster_size_distribution": {
+        "size_2": {
+          "fraction_of_files": 0.22328
+        },
+        "size_3_9": {
+          "fraction_of_files": 0.378245
+        },
+        "size_10_99": {
+          "fraction_of_files": 0.82587
+        },
+        "size_100_999": {
+          "fraction_of_files": 5.232375
+        },
+        "size_1000_plus": {
+          "fraction_of_files": 70.951445
+        }
+      },
+      "fraction_in_large_clusters": {
+        "threshold_10": 77.00969,
+        "threshold_100": 76.18382,
+        "threshold_1000": 70.951445
+      },
+      "runtime_sec": 412.3
+    },
+    "haskell": {
+      "lsh_bands": 8,
+      "lsh_rows": 16,
+      "n_files_input": 200000,
+      "n_files_kept": 169900,
+      "n_files_removed": 30100,
+      "dedup_rate": 0.1505,
+      "total_tokens_input": 190227640,
+      "total_tokens_kept": 122298109,
+      "token_removal_rate": 0.3571,
+      "n_components": 169900,
+      "mean_component_size": 35.99,
+      "max_component_size": 1175,
+      "cluster_size_distribution": {
+        "size_2": {
+          "fraction_of_files": 0.20744
+        },
+        "size_3_9": {
+          "fraction_of_files": 0.42102
+        },
+        "size_10_99": {
+          "fraction_of_files": 0.526195
+        },
+        "size_100_999": {
+          "fraction_of_files": 0.162425
+        },
+        "size_1000_plus": {
+          "fraction_of_files": 6.903125
+        }
+      },
+      "fraction_in_large_clusters": {
+        "threshold_10": 7.591745,
+        "threshold_100": 7.06555,
+        "threshold_1000": 6.903125
+      },
+      "runtime_sec": 415.7
+    },
+    "julia": {
+      "lsh_bands": 8,
+      "lsh_rows": 16,
+      "n_files_input": 200000,
+      "n_files_kept": 156904,
+      "n_files_removed": 43096,
+      "dedup_rate": 0.2155,
+      "total_tokens_input": 145415399,
+      "total_tokens_kept": 90334147,
+      "token_removal_rate": 0.3788,
+      "n_components": 156904,
+      "mean_component_size": 113.92,
+      "max_component_size": 2509,
+      "cluster_size_distribution": {
+        "size_2": {
+          "fraction_of_files": 0.28286
+        },
+        "size_3_9": {
+          "fraction_of_files": 0.498105
+        },
+        "size_10_99": {
+          "fraction_of_files": 1.017895
+        },
+        "size_100_999": {
+          "fraction_of_files": 2.920865
+        },
+        "size_1000_plus": {
+          "fraction_of_files": 31.475405
+        }
+      },
+      "fraction_in_large_clusters": {
+        "threshold_10": 35.414165,
+        "threshold_100": 34.39627,
+        "threshold_1000": 31.475405
+      },
+      "runtime_sec": 394.0
+    }
+  }
+}

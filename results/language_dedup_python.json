@@ -1,0 +1,41 @@
+{
+  "language": "python",
+  "threshold": 0.85,
+  "shingle_k": 5,
+  "n_permutations": 128,
+  "lsh_bands": 8,
+  "lsh_rows": 16,
+  "n_files_input": 200000,
+  "n_files_kept": 188938,
+  "n_files_removed": 11062,
+  "dedup_rate": 0.0553,
+  "total_tokens_input": 143852725,
+  "total_tokens_kept": 132769184,
+  "token_removal_rate": 0.077,
+  "n_components": 188938,
+  "mean_component_size": 63.84,
+  "max_component_size": 579,
+  "cluster_size_distribution": {
+    "size_2": {
+      "fraction_of_files": 0.05834
+    },
+    "size_3_9": {
+      "fraction_of_files": 0.081825
+    },
+    "size_10_99": {
+      "fraction_of_files": 0.619085
+    },
+    "size_100_999": {
+      "fraction_of_files": 4.013465
+    },
+    "size_1000_plus": {
+      "fraction_of_files": 0.0
+    }
+  },
+  "fraction_in_large_clusters": {
+    "threshold_10": 4.63255,
+    "threshold_100": 4.013465,
+    "threshold_1000": 0.0
+  },
+  "runtime_sec": 464.1
+}

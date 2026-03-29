@@ -1,0 +1,41 @@
+{
+  "language": "java",
+  "threshold": 0.85,
+  "shingle_k": 5,
+  "n_permutations": 128,
+  "lsh_bands": 8,
+  "lsh_rows": 16,
+  "n_files_input": 200000,
+  "n_files_kept": 188199,
+  "n_files_removed": 11801,
+  "dedup_rate": 0.059,
+  "total_tokens_input": 106794251,
+  "total_tokens_kept": 100004443,
+  "token_removal_rate": 0.0636,
+  "n_components": 188199,
+  "mean_component_size": 119.14,
+  "max_component_size": 706,
+  "cluster_size_distribution": {
+    "size_2": {
+      "fraction_of_files": 0.05086
+    },
+    "size_3_9": {
+      "fraction_of_files": 0.075245
+    },
+    "size_10_99": {
+      "fraction_of_files": 0.711155
+    },
+    "size_100_999": {
+      "fraction_of_files": 8.25095
+    },
+    "size_1000_plus": {
+      "fraction_of_files": 0.0
+    }
+  },
+  "fraction_in_large_clusters": {
+    "threshold_10": 8.962105,
+    "threshold_100": 8.25095,
+    "threshold_1000": 0.0
+  },
+  "runtime_sec": 510.1
+}
